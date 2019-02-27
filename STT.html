@@ -80,40 +80,34 @@
             <section class="space-lg">
                 <div class="container">
                     <ul class="feature-list feature-list-xlg">
-                        <li class="row align-items-center justify-content-around">
+                          <li class="row align-items-center justify-content-around">
                             <div class="col-12 col-lg-4 col-md-4 order-md-2">
-                                <img alt="Image" class="img-fluid rounded" src="assets/img/For_Android-1.png"/>
+                               <img alt="Image" class="img-fluid rounded" src="assets/img/For_Android_iOS-4.png"/>
                             </div>
                             <!--end of col-->
-                             <div class="col-12 col-lg-8 col-md-8 order-md-1 pr-md-5 text-left">
-                                <h3 class="h1 mb-0">Bangla Optical Character Recognition</h3>
-                                <ul class="list-inline mb-1">
+                            <div class="col-12 col-lg-8 col-md-8 order-md-1 pr-md-5 text-left">
+                                <h3 class="h1 mb-0">Bangla Text to Speech</h3>
+                                 <ul class="list-inline mb-1">
                                     <li class="list-inline-item">
                                         <a href="https://ocr.sustbanglaresearch.org/" target="_blank" class="btn btn-outline-primary btn-lg">Explore Web Version</a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="https://itunes.apple.com/us/app/sulikhon-ocr-app-for-bangla/id1450084434" target="_blank"><img alt="Image" src="assets/img/svg-apple-store-a-icon-1.svg" width="50px"/></a>
+                                        <a href="https://itunes.apple.com/us/app/subochon-bangla-text-to-speech/id1450204760" target="_blank"><img alt="Image" src="assets/img/svg-apple-store-a-icon-1.svg" width="50px"/></a>
                                     </li>
                                     <li class="list-inline-item">
                                         <a href="https://play.google.com/store/apps/details?id=com.technext.ocr" target="_blank"><img alt="Image" src="assets/img/google-play- icon.png" width="80px"/></a>
                                     </li>
                                 </ul>
-                                <p>
-                                	In this research a realistic Bangla OCR has been designed and developed from scratch, which can
- actually recognize printed Bangla script with a very good accuracy. It recognizes Bangla basic and
-compound characters, numerals, as well as the frequently used punctuation marks.
-Current version composed of preprocessing, segmentation and recognition steps. We have used
-connected component analysis based two zone approach for character segmentation. Convolutional
-Neural Network (CNN) is used at recognition step. System is trained with seven fonts (Adorsholipi,
-AponaLohit, Kalpurush, Siyam Rupali, SolaimanLipi, Sutonny, Shonar Bangla). This version works well on
-good quality documents (standard scan resolution 300 dpi). We tried to fine-tune our system without
-post processing. In the next version, post processing step will be implemented and also our next target is
-to make the system more susceptible to poor quality documents.
-The project is funded by the subproject ‘Development of Multi-Platform Speech &amp; Language Processing
-Software for Bangla’ (CP-3888) under the &#39;Higher Education Quality Enhancement Project (HEQEP)&#39; of
-UGC.
-                                </p>
-                                
+                                <p class="pr-right">
+                                	This research is aimed on developing a natural sounding Bangla Text to Speech (TTS) synthesis system. The project is funded by the subproject ‘Development of Multi-Platform Speech & Language Processing Software for Bangla’ (CP-3888) under the 'Higher Education Quality Enhancement Project (HEQEP)' of UGC. 
+
+The running system is a poly-phone concatenation based speech synthesis system. We used poly-phones (combination of di-phones and tri-phones) as the phonetic units for this system. Around 4500 poly-phones were required to develop the complete system. The current system contains the recording of 1 (one) female voice. 2 (two) more voices are being developed. 
+
+A good TTS system requires a grapheme-to-phoneme (G2P) module to convert the given texts into pronounceable forms. We developed a state-of-the art encoder-decoder based G2P module which was trained on a large lexicon of 135000 words. Both the encoder and decoder networks consisted of 'Gated Recurrent Units Recurrent Neural Networks' (GRU-RNNs). We released our lexicon in a public Github repository for the Bangla research community.
+
+The next version of the system will contain 2 (two) more voices that will be generated by a Statistical Parametric Speech Synthesis (SPSS) model. For this purpose, we developed a duration model and an acoustic model, both of which are being trained by 'Bidirectional Long-Short-Term-Memory Recurrent Neural Networks' (BLSTM-RNNs). 
+                       </p>
+                               
                             </div>
                             <!--end of col-->
                         </li>
@@ -142,52 +136,49 @@ UGC.
                                 </thead>
                                 <tbody>
 
+                                    
+
+                                    <tr class="table-divider"></tr>
+
                                     <tr class="bg-white">
                                         <th scope="row">
                                             <div class="media align-items-center">
-                                                <img alt="Image" src="assets/img/dr-md-jafar-iqbal.jpeg" class="avatar" />
+                                                <img alt="Image" src="assets/img/dr-md-shohidur-rahman.jpeg" class="avatar" />
                                                 <div class="media-body">
-                                                    <span class="h6 mb-0">Dr Md Zafar Iqbal
+                                                    <span class="h6 mb-0">Dr Md Shohidur Rahman
                                                         
                                                     </span>
                                                     <span class="text-muted">Project Supervisor</span>
                                                 </div>
                                             </div>
                                         </th>
-                                        <td class="text-right">mzi@sust.edu</td>
+                                        <td class="text-right">rahmanms@sust.edu</td>
                                         
                                         <td>
                                             
                                             </div>
                                         </td>
                                     </tr>
-                                     <tr class="table-divider"></tr>
+                                    
 
                                     <tr class="bg-white">
                                         <th scope="row">
                                             <div class="media align-items-center">
-                                                <img alt="Image" src="assets/img/tasnim-jahan.jpeg" class="avatar" />
+                                                <img alt="Image" src="assets/img/shafkat-kibria.jpeg" class="avatar" />
                                                 <div class="media-body">
-                                                    <span class="h6 mb-0">Tasnim Zahan Tithy
+                                                    <span class="h6 mb-0">Shafkat Kibria
                                                         
                                                     </span>
                                                     <span class="text-muted">PhD Researcher</span>
                                                 </div>
                                             </div>
                                         </th>
-                                        <td class="text-right">tithy-cse@gmail.com</td>
+                                        <td class="text-right">shafkat80@gmail.com</td>
                                        
                                         <td>
                                             
                                         </td>
                                     </tr>
-
-                                   
-
-                                    
-                                    
-
-
                                    
 
                                 </tbody>
